@@ -32,7 +32,6 @@ def update_status
 end
 
 def add_characters
-  require 'pry'
    epic_tragedy = {
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
