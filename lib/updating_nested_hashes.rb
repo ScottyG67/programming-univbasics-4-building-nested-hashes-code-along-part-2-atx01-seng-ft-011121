@@ -32,6 +32,7 @@ def update_status
 end
 
 def add_characters
+  require 'pry'
    epic_tragedy = {
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
@@ -60,7 +61,7 @@ def add_characters
    #   - The first hash should have the :name key set to "Prince Escalus" 
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
-
+binding.pry
   epic_tragedy[:additional_characters]=[{name: "Prince Escalus"},
   {name: "Apothecary"}]
   
